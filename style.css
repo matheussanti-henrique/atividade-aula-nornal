@@ -52,6 +52,7 @@ main .noticia{
 main .noticia img{
     width:200px;
     padding: 10px;
+    margin: 5px;
 }
 main .descricao h3{
     background: blue;
@@ -62,11 +63,22 @@ main .descricao p{
     margin-top: 20px;
     letter-spacing: 3px;
      line-height: 25px;
+     margin-bottom: 20px;
 }
 main .descricao a{
     background: blue;
     color: white;
     padding: 5px 15px;
+
+}
+main .grid-3{
+     display:flex;
+     justify-content: space-around;
+     height: 300px;
+}
+main .grid-3 .coluna{
+    width: 33%;
+    border:1px solid black;
 }
 aside{
 	width: 20%;
